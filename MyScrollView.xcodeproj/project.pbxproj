@@ -14,6 +14,7 @@
 		A254E88A1E5BF0C0008A4897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A254E8891E5BF0C0008A4897 /* Assets.xcassets */; };
 		A254E88D1E5BF0C0008A4897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A254E88B1E5BF0C0008A4897 /* LaunchScreen.storyboard */; };
 		A254E8981E5BF0C0008A4897 /* MyScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A254E8971E5BF0C0008A4897 /* MyScrollViewTests.m */; };
+		A29A38A11E5C01CB00C8654F /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A29A38A01E5C01CB00C8654F /* MyScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A254E8931E5BF0C0008A4897 /* MyScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A254E8971E5BF0C0008A4897 /* MyScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScrollViewTests.m; sourceTree = "<group>"; };
 		A254E8991E5BF0C0008A4897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A29A389F1E5C01CB00C8654F /* MyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		A29A38A01E5C01CB00C8654F /* MyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				A254E8811E5BF0C0008A4897 /* AppDelegate.m */,
 				A254E8831E5BF0C0008A4897 /* ViewController.h */,
 				A254E8841E5BF0C0008A4897 /* ViewController.m */,
+				A29A389F1E5C01CB00C8654F /* MyScrollView.h */,
+				A29A38A01E5C01CB00C8654F /* MyScrollView.m */,
 				A254E8861E5BF0C0008A4897 /* Main.storyboard */,
 				A254E8891E5BF0C0008A4897 /* Assets.xcassets */,
 				A254E88B1E5BF0C0008A4897 /* LaunchScreen.storyboard */,
@@ -214,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A254E8851E5BF0C0008A4897 /* ViewController.m in Sources */,
+				A29A38A11E5C01CB00C8654F /* MyScrollView.m in Sources */,
 				A254E8821E5BF0C0008A4897 /* AppDelegate.m in Sources */,
 				A254E87F1E5BF0C0008A4897 /* main.m in Sources */,
 			);
@@ -412,6 +418,7 @@
 				A254E89E1E5BF0C0008A4897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A254E89F1E5BF0C0008A4897 /* Build configuration list for PBXNativeTarget "MyScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				A254E8A11E5BF0C0008A4897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
